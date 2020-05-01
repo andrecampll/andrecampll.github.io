@@ -5,7 +5,7 @@ import { Container } from './styles';
 const Habilities: React.FC = () => {
   return (
     <Container>
-      <h3>Habilities</h3>
+      <h3>HABILITIES</h3>
       <ul>
         <strong >React</strong>
         <li>

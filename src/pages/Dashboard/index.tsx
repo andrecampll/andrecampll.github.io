@@ -1,5 +1,6 @@
 import React from 'react';
 import Habilities from '../../components/Habilities';
+import Projects from '../../components/Projects';
 
 import { Container, AboutSection } from './styles';
 
@@ -26,6 +27,9 @@ const Dashboard: React.FC = () => {
         </div>
 
         <Habilities />
+
+        <Projects />
+        
       </AboutSection>
     </>
   );

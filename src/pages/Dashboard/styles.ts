@@ -36,7 +36,7 @@ export const Container = styled.div`
 export const AboutSection = styled.div`
   text-align: center;
   font-family: "poppins-medium", sans-serif;
-  padding: 20px 10px;
+  padding: 20px 38px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -48,7 +48,7 @@ export const AboutSection = styled.div`
   div {
     display: flex;
     max-width: 900px;
-    padding: 20px 10px;
+    padding: 20px 0px;
     
     img {
       width: 100px;
@@ -57,7 +57,6 @@ export const AboutSection = styled.div`
     }
 
     aside {
-      margin-left: 16px;
       width: 100%;
       p {
         text-align: center;
