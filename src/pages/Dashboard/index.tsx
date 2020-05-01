@@ -1,6 +1,7 @@
 import React from 'react';
 import Habilities from '../../components/Habilities';
 import Projects from '../../components/Projects';
+import Parallax from '../../components/Parallax';
 
 import { Container, AboutSection } from './styles';
 
@@ -8,13 +9,7 @@ const Dashboard: React.FC = () => {
   return (
     <>
       <Container>
-        <h2>HELLO, WORLD.</h2>
-        <h1>I'm André Victor</h1>
-        <div>
-          <h3>
-            FRONT-END DEVELOPER | BACK-END DEVELOPER
-          </h3>
-        </div>
+        <Parallax />
       </Container>
 
       <AboutSection>
@@ -29,7 +24,7 @@ const Dashboard: React.FC = () => {
         <Habilities />
 
         <Projects />
-        
+
       </AboutSection>
     </>
   );
