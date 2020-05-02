@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { useCallback } from 'react';
 import { FiGithub, FiMail, FiLinkedin } from 'react-icons/fi';
 
 import { Container } from './styles';
 
 const Contact: React.FC = () => {
+
+  
 
   return (
     <Container>

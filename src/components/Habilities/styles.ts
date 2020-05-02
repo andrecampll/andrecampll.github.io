@@ -48,4 +48,36 @@ export const Container = styled.div`
       }
     }
   }
+  .main {
+  position: relative;
+  width: 100%;
+  height: 7px;
+  background: #fff;
+  cursor: pointer;
+  border-radius: 2px;
+  overflow: hidden;
+  padding: 0;
+  border: 0;
+}
+
+.fill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #7159c1;
+}
+
+.content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
 `;

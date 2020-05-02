@@ -1,4 +1,30 @@
-import styled from 'styled-components';
+import styled, { keyframes, css } from 'styled-components';
+
+interface Props {
+  animated: boolean;
+}
+
+export const translate = keyframes`
+    from {
+        transform: translateY(200px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+`;
+
+export const opacityTransform = keyframes`
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+`;
 
 export const Container = styled.div`
   width: 100%;
@@ -33,7 +59,7 @@ export const Container = styled.div`
   }
 `;
 
-export const AboutSection = styled.div`
+export const Content = styled.div`
   text-align: center;
   font-family: "poppins-medium", sans-serif;
   padding: 20px 38px;
@@ -67,4 +93,21 @@ export const AboutSection = styled.div`
       }
     }
   }
+`;
+
+export const AboutSection = styled.div<Props>`
+  text-align: center;
+  font-family: "poppins-medium", sans-serif;
+  padding: 20px 38px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0;
+
+  ${props => props.animated && css`
+    & {
+      animation: ${translate} 2s linear;
+      opacity: 1;
+    }
+  `}
 `;
