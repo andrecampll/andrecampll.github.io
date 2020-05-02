@@ -2,6 +2,7 @@ import React from 'react';
 import Habilities from '../../components/Habilities';
 import Projects from '../../components/Projects';
 import Parallax from '../../components/Parallax';
+import Contact from '../../components/Contact';
 
 import { Container, AboutSection } from './styles';
 
@@ -24,6 +25,8 @@ const Dashboard: React.FC = () => {
         <Habilities />
 
         <Projects />
+
+        <Contact />
 
       </AboutSection>
     </>
