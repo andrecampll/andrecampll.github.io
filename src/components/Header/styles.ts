@@ -6,10 +6,11 @@ export const Container = styled.div`
   justify-content: space-between;
 
   background: #000;
-  padding: 25px;
+  padding: 25px 30px;
 
   h1 {
     color: #fff;
-    font-size: 20px;
+    font-size: 23px;
+    font-family: 'Poppins';
   }
 `;
