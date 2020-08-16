@@ -1,5 +1,6 @@
+/* eslint-disable jsx-a11y/accessible-emoji */
 import React from 'react';
-import { FiCompass } from 'react-icons/fi';
+import { FiCompass, FiArrowRight } from 'react-icons/fi';
 
 import Header from '../../components/Header';
 
@@ -8,6 +9,9 @@ import {
   AboutSection,
   PresentationContainer,
   EmphasisText,
+  WorksContainer,
+  ProjectContainer,
+  GithubLink,
 } from './styles';
 
 const Dashboard: React.FC = () => {
@@ -20,7 +24,7 @@ const Dashboard: React.FC = () => {
         <PresentationContainer>
           <h2>Software <br/> Engineer</h2>
           <div>
-            <h2 className="emphasised" > {"</>"} </h2>
+            <h2 className="emphasized" > {"</>"} </h2>
           </div>
         </PresentationContainer>
 
@@ -41,7 +45,7 @@ const Dashboard: React.FC = () => {
           </p>
 
           <p>
-            Now a days, I work as Software Engineer in <EmphasisText>mudi saúde</EmphasisText>, a startup with focus on health.
+            Now a days, I work as Software Engineer in <span className="emphasized">mudi saúde</span>, a startup with focus on health.
           </p>
 
           <footer>
@@ -51,6 +55,57 @@ const Dashboard: React.FC = () => {
             </EmphasisText>
           </footer>
         </AboutSection>
+
+        <WorksContainer>
+          <h2>Works</h2>
+
+          <GithubLink href="https://github.com/andrecampll" target="_blank" >
+            <h3 className="emphasized">
+              All Works
+              
+              {/* <span role="img">🚀</span> */}
+            </h3>
+            <FiArrowRight size={20} className="emphasized" />
+
+          </GithubLink>
+
+          <ProjectContainer>
+            <div>
+              <aside>
+                <h4>CASE STUDY</h4>
+
+                <p>
+                  Insure Landing Page <span className="emphasized">Website</span>
+                </p>
+
+                <FiArrowRight size={20} color="#9e9e9e" />
+              </aside>
+              <img
+                src="https://lpaulovt.github.io/img/cases/insure.png"
+                alt="Project"
+              />
+            </div>
+          </ProjectContainer>
+
+          <ProjectContainer>
+            <div>
+              <aside>
+                <h4>CASE STUDY</h4>
+
+                <p>
+                  Ecoleta <span className="emphasized">Web Application</span>
+                </p>
+
+                <FiArrowRight size={20} color="#9e9e9e" />
+              </aside>
+              <img
+                className="Ecoleta"
+                src="https://lpaulovt.github.io/img/cases/ecoleta.png"
+                alt="Project"
+              />
+            </div>
+          </ProjectContainer>
+        </WorksContainer>
       </Container>
     </>
   );
