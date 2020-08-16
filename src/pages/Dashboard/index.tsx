@@ -17,7 +17,6 @@ import {
   Container,
   AboutSection,
   PresentationContainer,
-  EmphasisText,
   WorksContainer,
   ProjectContainer,
   GithubLink,
@@ -62,7 +61,9 @@ const Dashboard: React.FC = () => {
             </p>
 
             <p>
-              Now a days, I work as Software Engineer in <span className="emphasized">mudi saúde</span>, a startup with focus on health.
+              Now a days, I work as Software Engineer
+              in <span className="emphasized">Mudi Saúde</span>, a brazilian
+              startup with focus on health.
             </p>
           </section>
 

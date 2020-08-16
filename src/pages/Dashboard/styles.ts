@@ -13,7 +13,7 @@ export const PresentationContainer = styled.div`
   background: #000;
   width: 100%;
   height: 500px;
-  padding: 30px;
+  padding: 30px 50px;
 
   h2 {
     color: #fff;
@@ -54,11 +54,6 @@ export const AboutSection = styled.div`
       margin-right: 5px;
     }
   }
-`;
-
-export const EmphasisText = styled.h4`
-  color: #ec135a;
-  font-weight: bold;
 `;
 
 export const WorksContainer = styled.div`
@@ -116,7 +111,9 @@ export const ProjectContainer = styled.div`
     .Ecoleta {
       left: -50px !important;
       height: 145px;
-
+      @media (min-width: 343px) {
+        height: 164px;
+      }
     }
 
     img {
