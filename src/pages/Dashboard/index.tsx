@@ -12,6 +12,7 @@ import {
   WorksContainer,
   ProjectContainer,
   GithubLink,
+  ContactContainer,
 } from './styles';
 
 const Dashboard: React.FC = () => {
@@ -59,7 +60,11 @@ const Dashboard: React.FC = () => {
         <WorksContainer>
           <h2>Works</h2>
 
-          <GithubLink href="https://github.com/andrecampll" target="_blank" >
+          <GithubLink
+            href="https://github.com/andrecampll"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <h3 className="emphasized">
               All Works
               
@@ -106,6 +111,20 @@ const Dashboard: React.FC = () => {
             </div>
           </ProjectContainer>
         </WorksContainer>
+
+        <ContactContainer>
+          <section>
+            <p>GOT A PROJECT?</p>
+            <h3>Let's <span className="emphasized">talk.</span></h3>
+            <a href="https://www.linkedin.com/in/andrecampll/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Get in touch
+              <FiArrowRight size={20} color="#9e9e9e" />
+            </a>
+          </section>
+        </ContactContainer>
       </Container>
     </>
   );

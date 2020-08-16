@@ -127,3 +127,48 @@ export const GithubLink = styled.a`
   text-decoration: none;
   color: auto;
 `;
+
+export const ContactContainer = styled.div`
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: #fff;
+  padding: 100px 30px;
+
+  section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    p {
+      font-family: 'Poppins';
+      color: #9e9e9e;
+      font-weight: bold;
+      font-size: 14px;
+    }
+
+    h3 {
+      font-family: 'Poppins';
+      color: #000;
+      font-weight: bold;
+      font-size: 30px;
+      letter-spacing: 1px;
+    }
+
+    a {
+      font-family: 'Poppins';
+      color: #000;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 15px;
+      margin-top: 10%;
+
+      display: flex;
+      align-items: center;
+
+      svg {
+        margin-left: 5px;
+      }
+    }
+  }
+`;
