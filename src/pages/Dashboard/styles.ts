@@ -139,6 +139,7 @@ export const ContactContainer = styled.div`
     display: flex;
     align-items: center;
     flex-direction: column;
+    width: 70%;
 
     p {
       font-family: 'Poppins';
@@ -155,19 +156,35 @@ export const ContactContainer = styled.div`
       letter-spacing: 1px;
     }
 
-    a {
+    div {
       font-family: 'Poppins';
       color: #000;
       text-decoration: none;
       font-weight: bold;
       font-size: 15px;
       margin-top: 10%;
+      width: 100%;
 
       display: flex;
       align-items: center;
+      flex-direction: column;
 
-      svg {
-        margin-left: 5px;
+      footer {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+        a {
+          color:#9e9e9e;
+          
+          svg {
+              &:hover {
+              color: #ec135a;
+              transition: 0.3s;
+            }
+          }
+        }
       }
     }
   }
@@ -183,7 +200,7 @@ export const Footer = styled.footer`
 
   div {
     text-align: center;
-    
+
     h5 {
       font-family: 'Poppins';
       color: #fff;
