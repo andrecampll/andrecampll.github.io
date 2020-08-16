@@ -1,21 +1,19 @@
 {
   "files": {
-    "main.js": "/static/js/main.70e9dfbb.chunk.js",
-    "main.js.map": "/static/js/main.70e9dfbb.chunk.js.map",
+    "main.js": "/static/js/main.ca2161a5.chunk.js",
+    "main.js.map": "/static/js/main.ca2161a5.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.7e4b9196.js",
     "runtime-main.js.map": "/static/js/runtime-main.7e4b9196.js.map",
-    "static/js/2.ca1ecdcf.chunk.js": "/static/js/2.ca1ecdcf.chunk.js",
-    "static/js/2.ca1ecdcf.chunk.js.map": "/static/js/2.ca1ecdcf.chunk.js.map",
+    "static/js/2.725f0abd.chunk.js": "/static/js/2.725f0abd.chunk.js",
+    "static/js/2.725f0abd.chunk.js.map": "/static/js/2.725f0abd.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.4684c493ee467f0349862369fdfd558c.js": "/precache-manifest.4684c493ee467f0349862369fdfd558c.js",
+    "precache-manifest.3960345dc62645f370cff90acd1c99d7.js": "/precache-manifest.3960345dc62645f370cff90acd1c99d7.js",
     "service-worker.js": "/service-worker.js",
-    "static/js/2.ca1ecdcf.chunk.js.LICENSE.txt": "/static/js/2.ca1ecdcf.chunk.js.LICENSE.txt",
-    "static/media/gofinances.png": "/static/media/gofinances.482359a3.png",
-    "static/media/wallp.jpg": "/static/media/wallp.ca12aca0.jpg"
+    "static/js/2.725f0abd.chunk.js.LICENSE.txt": "/static/js/2.725f0abd.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.7e4b9196.js",
-    "static/js/2.ca1ecdcf.chunk.js",
-    "static/js/main.70e9dfbb.chunk.js"
+    "static/js/2.725f0abd.chunk.js",
+    "static/js/main.ca2161a5.chunk.js"
   ]
 }
