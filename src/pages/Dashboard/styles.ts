@@ -172,3 +172,24 @@ export const ContactContainer = styled.div`
     }
   }
 `;
+
+export const Footer = styled.footer`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000;
+
+  padding: 35px;
+
+  div {
+    text-align: center;
+    
+    h5 {
+      font-family: 'Poppins';
+      color: #fff;
+      font-weight: bold;
+      font-size: 10px;
+      letter-spacing: 1px;
+    }
+  }
+`;

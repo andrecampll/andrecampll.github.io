@@ -13,6 +13,7 @@ import {
   ProjectContainer,
   GithubLink,
   ContactContainer,
+  Footer,
 } from './styles';
 
 const Dashboard: React.FC = () => {
@@ -125,6 +126,12 @@ const Dashboard: React.FC = () => {
             </a>
           </section>
         </ContactContainer>
+
+        <Footer>
+          <div>
+            <h5>André Victor - 2020</h5>
+          </div>
+        </Footer>
       </Container>
     </>
   );
