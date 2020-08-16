@@ -35,9 +35,13 @@ const Dashboard: React.FC = () => {
             </EmphasisText>
           </p>
 
-          <p>I'm a passionate fullstack web engineer with emphasis
-            on Javascript and Typescript, currently graduating in the
-            Computer Engineering course at UFPA and working at Mudi Saúde.
+          <p>
+            Formed by Rocketseat, I'm a passionate software engineer with emphasis
+            on Javascript and Typescript. Also, I have a great interest in Cyber Security.
+          </p>
+
+          <p>
+            Now a days, I work as Software Engineer in <EmphasisText>mudi saúde</EmphasisText>, a startup with focus on health.
           </p>
 
           <footer>
