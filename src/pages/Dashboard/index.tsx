@@ -13,6 +13,8 @@ import {
 
 import Header from '../../components/Header';
 
+import GoRestaurantWeb from '../../assets/GoRestaurantWeb.png';
+
 import {
   Container,
   AboutSection,
@@ -98,13 +100,13 @@ const Dashboard: React.FC = () => {
                 <h4>CASE STUDY</h4>
 
                 <p>
-                  Insure Landing Page <span className="emphasized">Website</span>
+                  GoRestaurant <span className="emphasized">Web Application</span>
                 </p>
 
                 <FiArrowRight size={20} color="#9e9e9e" />
               </aside>
               <img
-                src="https://lpaulovt.github.io/img/cases/insure.png"
+                src={GoRestaurantWeb}
                 alt="Project"
               />
             </div>
