@@ -40,34 +40,38 @@ const Dashboard: React.FC = () => {
         </PresentationContainer>
 
         <AboutSection>
-          <img
-            src="https://avatars1.githubusercontent.com/u/53975579?s=460&u=cd6e9edc185253240aa8280c8d5baf445efd1a7f&v=4"
-            alt="André"
-          />
-          
-          <h3>About me</h3>
-          <p>Hi! I'm André,
-          <br />
-            <EmphasisText>
-              Software Engineer.
-            </EmphasisText>
-          </p>
+          <section>
+            <img
+              src="https://avatars1.githubusercontent.com/u/53975579?s=460&u=cd6e9edc185253240aa8280c8d5baf445efd1a7f&v=4"
+              alt="André"
+            />
+          </section>
 
-          <p>
-            Formed by Rocketseat, I'm a passionate software engineer with emphasis
-            on Javascript and Typescript. Also, I have a great interest in Cyber Security.
-          </p>
+          <section>
+            <h3>About me</h3>
+            <p>Hi! I'm André,
+            <br />
+              <span className="emphasized" >
+                Software Engineer.
+              </span>
+            </p>
 
-          <p>
-            Now a days, I work as Software Engineer in <span className="emphasized">mudi saúde</span>, a startup with focus on health.
-          </p>
+            <p>
+              Formed by Rocketseat, I'm a passionate software engineer with emphasis
+              on Javascript and Typescript. Also, I have a great interest in Cyber Security.
+            </p>
 
-          <footer>
-            <EmphasisText>
+            <p>
+              Now a days, I work as Software Engineer in <span className="emphasized">mudi saúde</span>, a startup with focus on health.
+            </p>
+          </section>
+
+          <section className="full-sized" >
+            <p className="emphasized" >
               <FiCompass />
               Belém, Brazil
-            </EmphasisText>
-          </footer>
+            </p>
+          </section>
         </AboutSection>
 
         <WorksContainer>

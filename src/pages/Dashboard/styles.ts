@@ -24,6 +24,9 @@ export const PresentationContainer = styled.div`
 
 export const AboutSection = styled.div`
   padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   img {
     width: 260px;
@@ -42,7 +45,11 @@ export const AboutSection = styled.div`
     margin: 15px 0;
   }
 
-  footer {
+  .full-sized {
+    width: 100%;
+  }
+
+  section {
     svg {
       margin-right: 5px;
     }
