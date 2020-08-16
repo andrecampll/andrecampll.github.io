@@ -106,6 +106,7 @@ const Dashboard: React.FC = () => {
                 <FiArrowRight size={20} color="#9e9e9e" />
               </aside>
               <img
+                className="GoRestaurantWeb"
                 src={GoRestaurantWeb}
                 alt="Project"
               />

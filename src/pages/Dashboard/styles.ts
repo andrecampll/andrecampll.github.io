@@ -97,13 +97,13 @@ export const ProjectContainer = styled.div`
         font-family: 'Poppins';
         color: #9e9e9e;
         font-weight: bold;
-        font-size:1em;
+        font-size:0.7em;
       }
 
       p {
         font-family: 'Poppins';
         font-weight: bold;
-        font-size: 1.5em;
+        font-size: 1.3em;
         margin-bottom: 10px;
       }
     }
@@ -113,6 +113,14 @@ export const ProjectContainer = styled.div`
       height: 145px;
       @media (min-width: 343px) {
         height: 164px;
+      }
+    }
+
+    .GoRestaurantWeb {
+      left: 15px !important;
+      height: 100px;
+      @media (min-width: 343px) {
+        height: 145px;
       }
     }
 
