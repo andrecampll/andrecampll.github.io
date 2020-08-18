@@ -48,7 +48,7 @@ const Dashboard: React.FC = () => {
             />
           </section>
 
-          <section>
+          <section className="second-section" >
             <h3>About me</h3>
             <p>Hi! I'm André,
             <br />
@@ -63,13 +63,11 @@ const Dashboard: React.FC = () => {
             </p>
 
             <p>
-              Now a days, I work as Software Engineer
+              Nowadays, I work as Software Engineer
               in <span className="emphasized">Mudi Saúde</span>, a brazilian
               startup with focus on health.
             </p>
-          </section>
 
-          <section className="full-sized" >
             <p className="emphasized" >
               <FiCompass />
               Belém, Brazil

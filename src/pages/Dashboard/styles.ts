@@ -23,10 +23,23 @@ export const PresentationContainer = styled.div`
 `;
 
 export const AboutSection = styled.div`
-  padding: 30px;
+  margin: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  @media (min-width: 768px) {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    
+    .second-section {
+      margin-right: 5%;
+    }
+  }
+
+  @media (min-width: 828px) {
+    margin: 30px 50px;
+  }
 
   img {
     width: 260px;
@@ -79,6 +92,11 @@ export const ProjectContainer = styled.div`
   padding: 30px 30px;
   width: 100%;
   overflow: hidden;
+  transition: 0.3s;
+
+  &:hover {
+    transform: translateY(-10px);
+  }
 
   & + & {
     margin-top: 30px;
@@ -92,6 +110,12 @@ export const ProjectContainer = styled.div`
     aside {
       width: 100%;
       margin-right: auto;
+
+      /* svg {
+        &:hover {
+          transform: rotate(200px);
+        }
+      } */
 
       h4 {
         font-family: 'Poppins';
