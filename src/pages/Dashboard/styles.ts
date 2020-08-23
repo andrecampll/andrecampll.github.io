@@ -31,7 +31,8 @@ export const AboutSection = styled.div`
   @media (min-width: 768px) {
     flex-direction: row-reverse;
     justify-content: space-between;
-    
+    margin: 30px 60px;
+
     .second-section {
       margin-right: 5%;
     }
@@ -76,11 +77,24 @@ export const WorksContainer = styled.div`
   background: #000;
   padding: 30px;
 
+  @media (min-width: 768px) {
+    padding: 30px 60px;
+  }
+
   h2 {
     color: #fff;
     margin: 23px 0;
     font-size: 26px;
     font-family: 'Poppins';
+  }
+`;
+
+export const Projects = styled.div`
+  width: 100%;
+  @media (min-width: 900px) {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    gap: 40px;
   }
 `;
 
@@ -90,6 +104,9 @@ export const ProjectContainer = styled.div`
   flex-direction: column;
   background: #fff;
   padding: 30px 30px;
+  @media (min-width: 900px) {
+    padding: 100px 30px;
+  }
   width: 100%;
   overflow: hidden;
   transition: 0.3s;
@@ -100,6 +117,9 @@ export const ProjectContainer = styled.div`
 
   & + & {
     margin-top: 30px;
+    @media (min-width: 900px) {
+      margin-top: 0;
+    }
   }
 
   div {
@@ -137,6 +157,7 @@ export const ProjectContainer = styled.div`
       height: 145px;
       @media (min-width: 343px) {
         height: 164px;
+        right: 25% !important;
       }
     }
 

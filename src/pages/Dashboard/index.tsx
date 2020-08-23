@@ -24,6 +24,7 @@ import {
   GithubLink,
   ContactContainer,
   Footer,
+  Projects,
 } from './styles';
 
 const Dashboard: React.FC = () => {
@@ -92,43 +93,50 @@ const Dashboard: React.FC = () => {
 
           </GithubLink>
 
-          <ProjectContainer>
-            <div>
-              <aside>
-                <h4>CASE STUDY</h4>
+          <Projects>
+            <ProjectContainer>
+              <div>
+                <aside>
+                  <h4>CASE STUDY</h4>
 
-                <p>
-                  GoRestaurant <span className="emphasized">Web Application</span>
-                </p>
+                  <p>
+                    GoRestaurant <br/> <span className="emphasized">Web Application</span>
+                  </p>
 
-                <FiArrowRight size={20} color="#9e9e9e" />
-              </aside>
-              <img
-                className="GoRestaurantWeb"
-                src={GoRestaurantWeb}
-                alt="Project"
-              />
-            </div>
-          </ProjectContainer>
+                  <FiArrowRight size={20} color="#9e9e9e" />
+                </aside>
+                <main>
+                  <img
+                    className="GoRestaurantWeb"
+                    src={GoRestaurantWeb}
+                    alt="Project"
+                  />
+                </main>
+              </div>
+            </ProjectContainer>
 
-          <ProjectContainer>
-            <div>
-              <aside>
-                <h4>CASE STUDY</h4>
+            <ProjectContainer>
+              <div>
+                <aside>
+                  <h4>CASE STUDY</h4>
 
-                <p>
-                  Ecoleta <span className="emphasized">Web Application</span>
-                </p>
+                  <p>
+                    Ecoleta <br/> <span className="emphasized">Web Application</span>
+                  </p>
 
-                <FiArrowRight size={20} color="#9e9e9e" />
-              </aside>
-              <img
-                className="Ecoleta"
-                src="https://lpaulovt.github.io/img/cases/ecoleta.png"
-                alt="Project"
-              />
-            </div>
-          </ProjectContainer>
+                  <FiArrowRight size={20} color="#9e9e9e" />
+                </aside>
+
+                <main>
+                  <img
+                    className="Ecoleta"
+                    src="https://lpaulovt.github.io/img/cases/ecoleta.png"
+                    alt="Project"
+                  />
+                </main>
+              </div>
+            </ProjectContainer>
+          </Projects>
         </WorksContainer>
 
         <ContactContainer>
